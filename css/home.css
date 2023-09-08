@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue; /* Set the background color to match the navigation bar */
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background-color: #a20000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.element::before {
+   font-size: 10px;
+    content: "Basith";
+}
+
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-text{
+    margin-right: 800px;
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:hover{
+    border-bottom: white 2px solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.premium{
+    padding: 8px;
+    background-color: gold;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.main-content {
+    display: flex;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.left-side h4 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.left-side h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    font-size: 20px;
+    color: #555;
+    margin-top: 50px;
+}
+
+.right-side {
+    flex: 1;
+    text-align: center;
+}
+
+.right-side .main-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional content styling */
+.additional-content {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    padding-bottom: 50px; /* Add this line for spacing */
+}
+
+
+.additional-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Gap between grid items */
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.gallery-item {
+    margin-bottom: 30px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+/* Contact information */
+footer .contact-info {
+    margin-top: 10px;
+}
+
+/* Additional styling for contact fields */
+.contact-field {
+    margin-top: 10px;
+}
